@@ -10,6 +10,7 @@ Logging is singleton.
 
 ```c++
 #include <Logging.h>
+using namespace Log;
 
 void a() {
   Logging::setLevel(Logging::INFO);
@@ -24,6 +25,7 @@ Logging is logger manager.
 
 ```c++
 #include <Logging.h>
+using namespace Log;
 
 class Fuzz {
 public:

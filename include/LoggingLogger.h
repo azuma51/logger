@@ -119,7 +119,7 @@ inline void Logger::output(LEVEL lv, std::string msg)
 {
     assert(out);
 
-    //ココは必要になったら書式化する
+    //think formatting if needed
     time_t t = time(NULL);
     struct tm *d = localtime(&t);
     std::string date =
